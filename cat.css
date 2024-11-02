@@ -52,4 +52,38 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.navbar {
+    background-color:rgba(206,113,30,1.00);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-menu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
 
